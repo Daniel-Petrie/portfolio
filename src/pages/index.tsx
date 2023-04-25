@@ -1,13 +1,12 @@
 import * as React from 'react'
 import Navbar from '../components/Navbar'
 import Layout from '../components/Layout'
+import Hero from '../components/Hero'
 
 export default function Home() {
   return (
     <Layout>
-      <section>
-        <div>Hello world!</div>
-      </section>
+      <Hero />
     </Layout>
   )
 }

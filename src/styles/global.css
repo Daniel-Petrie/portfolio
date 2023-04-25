@@ -36,6 +36,10 @@ nav {
   margin: 40px auto;
 }
 
+nav h1 {
+  font-size: 24px;
+}
+
 nav .links {
   display: inline-block;
   text-align: right;
@@ -43,7 +47,60 @@ nav .links {
 
 nav a {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 40px;
   font-weight: 400;
   padding-bottom: 8px;
+  font-size: 24px;
 }
+
+/* HERO */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section-left {
+  margin-top: 200px;
+  max-width: 750px;
+  margin-right: 100px;
+}
+
+.hero-title {
+  font-size: 76px;
+  margin-bottom: 8px;
+}
+
+.hero-desc {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.hero-para {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.hero-button {
+  background-color: rgba(146,43,225,1);
+  color: #fff;
+  font-size: 24px;
+  border-radius: 12px;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button:active {
+  transform: scale(1.1);
+}
+
+.football-image {
+  margin-top: 200px;
+  width: 100%;
+  min-width: 400px;
+  border-radius: 50%;
+  outline: 4px solid #fff;
+}
+
