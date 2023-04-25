@@ -1,7 +1,18 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 function Hero() {
+  const [text, count] = useTypewriter({
+    words: [
+      'Full-Stack Developer',
+      'Guy-who-loves-football.tsx',
+      '<ButLovesToCodeMore />',
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  })
+
   return (
     <section className="hero-section">
       <div className="hero-section-left">
@@ -18,7 +29,7 @@ function Hero() {
           transition={{ type: 'tween', delay: 0.2 }}
           className="hero-desc"
         >
-          Full-Stack Developer
+          {text}
         </motion.h2>
         <motion.p
           className="hero-para"
