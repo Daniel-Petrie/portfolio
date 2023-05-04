@@ -29,7 +29,7 @@ function Hero() {
           transition={{ type: 'tween', delay: 0.2 }}
           className="hero-desc"
         >
-          {text}
+          {text} <Cursor cursorColor="#fff" />
         </motion.h2>
         <motion.p
           className="hero-para"
@@ -37,11 +37,10 @@ function Hero() {
           animate={{ x: 0 }}
           transition={{ type: 'tween', delay: 0.3 }}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
-          voluptatum accusantium neque? Harum possimus reiciendis iure
-          aspernatur commodi quis, perferendis laudantium suscipit molestias
-          alias nulla dolorem, ut ex! Illum, laboriosam.
+          As a Web Developer, my passion lies in crafting exceptional web
+          applications that provide users with engaging experiences.
         </motion.p>
+
         <motion.button
           initial={{ x: '-100vw' }}
           animate={{ x: 0 }}
@@ -50,6 +49,16 @@ function Hero() {
         >
           Let's Talk
         </motion.button>
+        <a href="/DanielCV.jpg" download>
+          <motion.button
+            initial={{ x: '-100vw' }}
+            animate={{ x: 0 }}
+            transition={{ type: 'tween', delay: 0.4 }}
+            className="hero-button"
+          >
+            View My CV
+          </motion.button>
+        </a>
       </div>
       <motion.div
         className="hero-section-right"

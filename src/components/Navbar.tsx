@@ -7,9 +7,9 @@ function Navbar() {
       <h1>Daniel Petrie</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/">About</Link>
+        <Link to="/">Projects</Link>
+        <Link to="/">Contact</Link>
       </div>
     </nav>
   )
