@@ -6,10 +6,18 @@ function Navbar() {
     <nav>
       <h1>Daniel Petrie</h1>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/">About</Link>
-        <Link to="/">Projects</Link>
-        <Link to="/">Contact</Link>
+        <Link className="nav-links" to="/">
+          Home
+        </Link>
+        <Link className="nav-links" to="#about">
+          About
+        </Link>
+        <Link className="nav-links" to="#projects">
+          Projects
+        </Link>
+        <Link className="nav-links" to="#contact-me">
+          Contact
+        </Link>
       </div>
     </nav>
   )

@@ -56,7 +56,7 @@ function Hero() {
             transition={{ type: 'tween', delay: 0.4 }}
             className="hero-button"
           >
-            View My CV
+            Download My CV
           </motion.button>
         </a>
       </div>

@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 
 function About() {
   return (
-    <div className="main-layout">
+    <div className="main-layout" id="about">
       <motion.h1
         className="hero-title"
-        initial={{ x: '100vh' }}
+        initial={{ x: '500' }}
         transition={{ type: 'tween' }}
         whileInView={{ x: 0 }}
         viewport={{ once: true }}
@@ -16,7 +16,7 @@ function About() {
       </motion.h1>
       <motion.p
         className="hero-para"
-        initial={{ x: '100vh' }}
+        initial={{ x: '500' }}
         transition={{ type: 'tween', delay: 0.4 }}
         whileInView={{ x: 0 }}
         viewport={{ once: true }}

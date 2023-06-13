@@ -6,8 +6,8 @@ function Projects() {
     <div className="main-layout">
       <motion.div
         className="project-container-new"
-        initial={{ x: '-100vh' }}
-        transition={{ type: 'tween', delay: 0.4 }}
+        initial={{ x: '-500' }}
+        transition={{ type: 'tween' }}
         whileInView={{ x: 0 }}
         viewport={{ once: true }}
       >

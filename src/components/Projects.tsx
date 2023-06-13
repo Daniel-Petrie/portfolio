@@ -3,11 +3,11 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className="main-layout">
+    <div className="main-layout" id="projects">
       <div className="project-background">
         <motion.h1
           className="hero-title"
-          initial={{ x: '-100vh' }}
+          initial={{ x: '-500' }}
           whileInView={{ x: 0 }}
           viewport={{ once: true }}
           transition={{ type: 'tween' }}
@@ -16,7 +16,7 @@ function Projects() {
         </motion.h1>
         <motion.div
           className="project-container"
-          initial={{ x: '-100vh' }}
+          initial={{ x: '-500' }}
           transition={{ type: 'tween', delay: 0.4 }}
           whileInView={{ x: 0 }}
           viewport={{ once: true }}
@@ -58,7 +58,7 @@ function Projects() {
           </motion.div>
         </motion.div>
         <motion.img
-          initial={{ x: '-100vh' }}
+          initial={{ x: '-500' }}
           whileInView={{ x: 0 }}
           transition={{ type: 'tween', delay: 0.4 }}
           viewport={{ once: true }}

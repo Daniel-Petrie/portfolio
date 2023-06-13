@@ -5,6 +5,8 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Projects from '../components/Projects'
 import NewProjects from '../components/NewProjects'
+import ContactMe from '../components/ContactMe'
+import Copyright from '../components/Copyright'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Projects />
       <NewProjects />
       <NewProjects />
+      <ContactMe />
+      {/* <Copyright /> */}
     </Layout>
   )
 }
