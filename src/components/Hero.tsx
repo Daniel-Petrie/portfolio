@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import { Link } from 'gatsby'
 
 function Hero() {
   const [text, count] = useTypewriter({
@@ -41,14 +42,16 @@ function Hero() {
           applications that provide users with engaging experiences.
         </motion.p>
 
-        <motion.button
-          initial={{ x: '-100vw' }}
-          animate={{ x: 0 }}
-          transition={{ type: 'tween', delay: 0.4 }}
-          className="hero-button"
-        >
-          Let's Talk
-        </motion.button>
+        <Link to="#contact-me">
+          <motion.button
+            initial={{ x: '-100vw' }}
+            animate={{ x: 0 }}
+            transition={{ type: 'tween', delay: 0.4 }}
+            className="hero-button"
+          >
+            Let's Talk
+          </motion.button>
+        </Link>
         <a href="/DanielCV.jpg" download>
           <motion.button
             initial={{ x: '-100vw' }}
