@@ -1,23 +1,23 @@
 import * as React from 'react'
-import Navbar from '../components/Navbar'
+
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Projects from '../components/Projects'
-import NewProjects from '../components/NewProjects'
+
 import ContactMe from '../components/ContactMe'
-import Copyright from '../components/Copyright'
+
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
     <Layout>
       <Hero />
-      <About />
+      {/* <About /> */}
       <Projects />
-      <NewProjects />
-      <NewProjects />
+
       <ContactMe />
-      {/* <Copyright /> */}
+      {/* <Footer /> */}
     </Layout>
   )
 }
